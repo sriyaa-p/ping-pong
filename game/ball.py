@@ -32,6 +32,7 @@ class Ball:
         if ball_rect.colliderect(ai_rect):
             self.velocity_x = -abs(self.velocity_x) #moves left
             self.x = ai_rect.left - self.width
+            # to check commit
 
     def reset(self):
         self.x = self.original_x
